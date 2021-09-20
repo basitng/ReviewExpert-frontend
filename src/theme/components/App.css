@@ -1,0 +1,16 @@
+.heading1 {
+  font-size: 34px;
+}
+
+@media screen and (max-width: 620px) {
+  .app-container {
+    border: none !important;
+  }
+  .header {
+    margin: 10px auto;
+    width: 90%;
+  }
+  .header .heading1 {
+    font-size: 24px;
+  }
+}

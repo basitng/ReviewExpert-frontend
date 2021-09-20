@@ -1,0 +1,33 @@
+.category-container {
+  padding: 10px 10px;
+}
+
+.category-container .card {
+  width: 90%;
+  border: 1px solid #333;
+  padding: 10px;
+  background: #f5f5f5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.category-container .card .icon {
+  width: 100%;
+}
+
+.category-container .card .icon img {
+  width: 100px;
+}

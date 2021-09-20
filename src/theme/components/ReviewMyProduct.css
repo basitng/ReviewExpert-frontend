@@ -1,0 +1,65 @@
+.container2 {
+  margin-top: 3rem;
+  width: 100%;
+  height: 40vh;
+  background: url("../../statics/images/leon-vbxyFxlgpjM-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+
+.container2 .lead {
+  padding: 10px;
+  color: #dbd7d7;
+  max-width: 60%;
+  position: relative;
+}
+
+.container2 .txt1 {
+  max-width: 60%;
+  color: #fff;
+  font-size: 42px;
+  position: relative;
+  text-shadow: 12px 12px 12px #100f26;
+  font-family: "poppin" !important;
+  text-transform: capitalize;
+}
+
+.container2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 620px) {
+  .container2 {
+    text-align: center;
+  }
+  .container2 .txt1 {
+    font-size: 30px;
+    max-width: 100%;
+  }
+  .container2 .lead {
+    max-width: 100%;
+  }
+}

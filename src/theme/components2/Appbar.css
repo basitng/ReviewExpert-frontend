@@ -1,0 +1,48 @@
+.AppBar {
+  background: white !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  border-bottom: 1px solid #ccc;
+  color: #555 !important;
+}
+
+.AppBar form {
+  width: 700px;
+  position: relative;
+}
+
+.AppBar form input {
+  height: 15px;
+}
+
+.AppBar form .icon {
+  position: absolute;
+  right: 4%;
+  top: 15%;
+}
+
+.AppBar .indigo {
+  background: #7922f2;
+}
+
+.AppBar .user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.AppBar .user p {
+  padding-left: 1rem;
+}
+
+@media screen and (max-width: 620px) {
+  .AppBar {
+    display: none;
+  }
+  .AppBar form {
+    display: none;
+  }
+}

@@ -1,0 +1,30 @@
+$primary: #ab15bf;
+$secondary: #7922f2;
+$UI: #615cf2;
+$overlay: #100f26;
+.login-container {
+  margin: 8rem auto;
+  .forgot-password {
+    color: #555;
+    padding-top: 1rem;
+    a {
+      text-decoration: none;
+      color: $secondary;
+    }
+  }
+  .signup-div {
+    padding-top: 1rem;
+    color: #555;
+    p {
+      a {
+        color: $secondary;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    }
+    b {
+      color: $UI;
+      cursor: pointer;
+    }
+  }
+}

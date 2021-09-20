@@ -1,0 +1,87 @@
+.kill-footer {
+  display: none;
+}
+
+.footer {
+  background: #0d0d0d;
+  margin-top: 5rem;
+  width: 100%;
+  padding: 30px 20px;
+}
+
+.footer .color-base {
+  background: -webkit-gradient(linear, left top, right top, from(#7922f2), to(#ab15bf));
+  background: linear-gradient(to right, #7922f2, #ab15bf);
+  background-clip: text;
+  color: transparent;
+}
+
+.footer .lead2 {
+  color: #ddd;
+  padding-bottom: 1rem;
+}
+
+.footer form {
+  position: relative;
+}
+
+.footer form input {
+  width: 50%;
+  padding: 10px 0 10px 25px;
+  color: #555;
+  height: 30px;
+  border: none;
+  font-family: "poppin" !important;
+  outline: none;
+  border-top-left-radius: 27rem;
+  border-bottom-left-radius: 27rem;
+}
+
+.footer form .btn {
+  width: 200px;
+  height: 50px;
+  top: 0;
+  border-top-right-radius: 27rem;
+  border-bottom-right-radius: 27rem;
+  background: #7922f2;
+  position: absolute;
+}
+
+.footer form .btn .icon {
+  padding-left: 0.5rem;
+}
+
+.footer .ul li {
+  list-style: none;
+  margin: 5px;
+}
+
+.footer .ul a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+@media screen and (max-width: 620px) {
+  .footer .heading2 {
+    font-size: 30px;
+    padding-top: 3rem;
+  }
+  .footer form {
+    overflow-x: hidden;
+  }
+  .footer form input {
+    width: 300px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-radius: 9px;
+    display: block;
+  }
+  .footer form .btn {
+    position: relative;
+    border-radius: 9px !important;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 300px;
+    margin: 10px 0 0 10px;
+  }
+}

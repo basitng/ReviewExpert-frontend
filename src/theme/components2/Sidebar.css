@@ -1,0 +1,42 @@
+.drawer {
+  padding-top: 1rem;
+}
+
+.drawer .list {
+  display: block;
+  width: 280px !important;
+  position: fixed;
+  top: 5%;
+  left: 0%;
+  padding-top: 3rem;
+  height: 100%;
+}
+
+.drawer .list a {
+  text-decoration: none;
+  color: #333;
+}
+
+.drawer .list .item {
+  margin-bottom: 1rem !important;
+  width: 95%;
+  border-top-right-radius: 27rem;
+  border-bottom-right-radius: 27rem;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.drawer .list .active {
+  background: #7922f2;
+  color: whitesmoke;
+}
+
+.drawer .list .active .list-icon {
+  color: whitesmoke;
+}
+
+@media screen and (max-width: 620px) {
+  .drawer {
+    display: none;
+  }
+}

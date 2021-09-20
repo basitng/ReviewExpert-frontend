@@ -1,0 +1,29 @@
+.login-container {
+  margin: 8rem auto;
+}
+
+.login-container .forgot-password {
+  color: #555;
+  padding-top: 1rem;
+}
+
+.login-container .forgot-password a {
+  text-decoration: none;
+  color: #7922f2;
+}
+
+.login-container .signup-div {
+  padding-top: 1rem;
+  color: #555;
+}
+
+.login-container .signup-div p a {
+  color: #7922f2;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.login-container .signup-div b {
+  color: #615cf2;
+  cursor: pointer;
+}

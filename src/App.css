@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "poppin";
+  src: url("statics/fonts/poppin/Poppins-Regular.ttf");
+}
+@font-face {
+  font-family: "Andika";
+  src: url("statics/fonts/Adika/OpenSans-Regular.ttf");
+}
+.andika-font {
+  font-family: "Andika" !important;
+}
+* {
+  margin: 0;
+  font-family: "Andika" !important;
+  padding: 0;
+}
+body,
+html {
+  overflow-x: hidden;
+  background-color: #fff;
+  font-family: "poppin";
+}

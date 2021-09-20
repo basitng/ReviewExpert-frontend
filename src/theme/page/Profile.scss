@@ -1,0 +1,33 @@
+@media screen and (max-width: 620px) {
+}
+.container6 {
+  margin: 8rem auto;
+  .profile-card {
+    background: #fff;
+    padding: 30px 10px;
+    text-align: center;
+    color: #555;
+    line-height: 3rem;
+    .profile-pics {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+    }
+    .profile-content {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      .item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .flex-stars {
+          color: rgb(199, 133, 12);
+        }
+      }
+    }
+    .btn {
+      margin-top: 2rem;
+    }
+  }
+}
