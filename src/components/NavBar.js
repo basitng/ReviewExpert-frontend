@@ -54,6 +54,9 @@ const NavBar = ({ isDashboard, isAuthenticated, isActive }) => {
               <NavLink to="/board" activeClassName="active-nav">
                 Leaders Board
               </NavLink>
+              <NavLink to="/dashboardboard" activeClassName="active-nav">
+                Dashboard
+              </NavLink>
               <NavLink to="/signup" activeClassName="active-nav">
                 Signup
               </NavLink>
@@ -76,6 +79,9 @@ const NavBar = ({ isDashboard, isAuthenticated, isActive }) => {
               </NavLink>
               <NavLink to="/board" activeClassName="active-nav">
                 Leaders Board
+              </NavLink>
+              <NavLink to="/dashboardboard" activeClassName="active-nav">
+                Dashboard
               </NavLink>
               <NavLink to="/profile" activeClassName="active-nav">
                 Profile
@@ -114,6 +120,11 @@ const NavBar = ({ isDashboard, isAuthenticated, isActive }) => {
                     <a>Leaders Board</a>
                   </NavLink>
                 </li>
+                <li className={isActive == "/board" ? "active-link" : ""}>
+                  <NavLink to="/dashboard">
+                    <a>Dashboard</a>
+                  </NavLink>
+                </li>
                 <li className={isActive == "/profile" ? "active-link" : ""}>
                   <NavLink to="/profile">
                     <a>Profile</a>
@@ -139,6 +150,11 @@ const NavBar = ({ isDashboard, isAuthenticated, isActive }) => {
                 <li className={isActive == "/board" ? "active-link" : ""}>
                   <NavLink to="/board">
                     <a>Leaders Board</a>
+                  </NavLink>
+                </li>
+                <li className={isActive == "/board" ? "active-link" : ""}>
+                  <NavLink to="/dashboard">
+                    <a>Dashboard</a>
                   </NavLink>
                 </li>
                 <li className={isActive == "/profile" ? "active-link" : ""}>
