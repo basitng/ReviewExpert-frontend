@@ -54,7 +54,7 @@ const NavBar = ({ isDashboard, isAuthenticated, isActive }) => {
               <NavLink to="/board" activeClassName="active-nav">
                 Leaders Board
               </NavLink>
-              <NavLink to="/dashboardboard" activeClassName="active-nav">
+              <NavLink to="/dashboard/home" activeClassName="active-nav">
                 Dashboard
               </NavLink>
               <NavLink to="/signup" activeClassName="active-nav">
@@ -80,7 +80,7 @@ const NavBar = ({ isDashboard, isAuthenticated, isActive }) => {
               <NavLink to="/board" activeClassName="active-nav">
                 Leaders Board
               </NavLink>
-              <NavLink to="/dashboardboard" activeClassName="active-nav">
+              <NavLink to="/dashboard/home" activeClassName="active-nav">
                 Dashboard
               </NavLink>
               <NavLink to="/profile" activeClassName="active-nav">
@@ -121,7 +121,7 @@ const NavBar = ({ isDashboard, isAuthenticated, isActive }) => {
                   </NavLink>
                 </li>
                 <li className={isActive == "/board" ? "active-link" : ""}>
-                  <NavLink to="/dashboard">
+                  <NavLink to="/dashboard/home">
                     <a>Dashboard</a>
                   </NavLink>
                 </li>
@@ -153,7 +153,7 @@ const NavBar = ({ isDashboard, isAuthenticated, isActive }) => {
                   </NavLink>
                 </li>
                 <li className={isActive == "/board" ? "active-link" : ""}>
-                  <NavLink to="/dashboard">
+                  <NavLink to="/dashboard/home">
                     <a>Dashboard</a>
                   </NavLink>
                 </li>
