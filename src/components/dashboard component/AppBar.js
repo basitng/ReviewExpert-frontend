@@ -62,7 +62,9 @@ const Appbar = () => {
     <React.Fragment>
       <AppBar className="AppBar">
         <Toolbar>
+        <NavLink to='/'>
           <Typography variant="h5">ReviewExpert</Typography>
+          </NavLink>
           <Typography sx={{ flexGrow: 1 }} />
           <form method="POST">
             <TextField
