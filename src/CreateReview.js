@@ -88,6 +88,7 @@ const CreateReview = () => {
                       Choose image
                     </label>
                   </Button>
+                  <br/>
                   <Button
                     id="upload"
                     variant="contained"
