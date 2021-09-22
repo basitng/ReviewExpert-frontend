@@ -77,7 +77,7 @@ const CreateReview = () => {
                 <br />
                 <br />
                 <input type="file" id="upload" className="display-none" />
-                <Box sx={{ display: "flex", justifyContent: "space-between" }}>
+                <Box className="display--flex">
                   <Button
                     id="upload"
                     variant="outlined"

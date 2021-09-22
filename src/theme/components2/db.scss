@@ -22,9 +22,14 @@ $shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     position: fixed !important;
     width: 100% !important;
     box-shadow: $shadow !important;
-    opacity: 0.8;
+    opacity: 0.9;
     bottom: 0 !important;
     z-index: 100 !important;
+  }
+  .display--flex{
+    display: flex;
+    flex-direction: column;
+    
   }
 }
 .display-none {
@@ -45,4 +50,9 @@ $shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
 }
 .b-nav {
   color: none !important;
+}
+.display--flex{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
