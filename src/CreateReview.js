@@ -104,7 +104,6 @@ const CreateReview = () => {
           </Grid>
         </Grid>
       </Box>
-      <br/><br/><br/><br/>
     </React.Fragment>
   );
 };
