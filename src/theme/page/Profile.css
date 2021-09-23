@@ -48,3 +48,8 @@
 .container6 .profile-card .btn {
   margin-top: 2rem;
 }
+@media screen and (max-with: 600){
+  .container6{
+    padding: 5rem auto 1rem auto;
+  }
+}
