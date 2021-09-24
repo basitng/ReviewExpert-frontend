@@ -27,7 +27,7 @@
   right: 2%;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 720px) {
   .banner form {
     margin: 7rem 0 0 2rem;
     width: 80% !important;

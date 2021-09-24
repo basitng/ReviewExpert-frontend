@@ -67,6 +67,9 @@
     padding-top: 3rem;
   }
   .footer form {
+    display: flex;
+    justify-content: center;
+   
     overflow-x: hidden;
   }
   .footer form input {

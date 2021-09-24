@@ -35,7 +35,7 @@ const Footer = ({ isDashboard }) => {
                 </li>
               </ul>
             </Grid>
-            <Grid lg={6} xs={12}>
+            <Grid lg={6} xs={12} justifyContent="center">
               <Typography
                 className="heading2"
                 variant="h4"
