@@ -28,6 +28,10 @@
 }
 
 @media screen and (max-width: 720px) {
+  .banner{
+    background-attachment: initial;
+    
+  }
   .banner form {
     margin: 7rem 0 0 2rem;
     width: 80% !important;
