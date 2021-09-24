@@ -62,7 +62,7 @@ const Appbar = () => {
     <React.Fragment>
       <AppBar className="AppBar">
         <Toolbar>
-        <NavLink to='/'>
+        <NavLink className="text-style-none" to='/'>
           <Typography variant="h5">ReviewExpert</Typography>
           </NavLink>
           <Typography sx={{ flexGrow: 1 }} />

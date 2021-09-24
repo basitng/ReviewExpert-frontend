@@ -15,7 +15,7 @@ const Dashbaord = () => {
       <Box className="dashboard-main-content">
         <QuickStats />
         <GraphSheet />
-        <Tables />
+        <Tables className="mb-3"/>
       </Box>
     </React.Fragment>
   );

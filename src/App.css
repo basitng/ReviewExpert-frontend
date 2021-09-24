@@ -24,3 +24,7 @@ html {
 .mb-3{
   margin-top: 3rem;
 }
+.text-style-none{
+  text-decoration: none;
+  color: #555;
+}
