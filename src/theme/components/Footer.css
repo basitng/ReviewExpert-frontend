@@ -61,15 +61,12 @@
   color: #ddd;
 }
 
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 720px) {
   .footer .heading2 {
     font-size: 30px;
     padding-top: 3rem;
   }
   .footer form {
-    display: flex;
-    justify-content: center;
-   flex-direction: column;
     overflow-x: hidden;
   }
   .footer form input {
