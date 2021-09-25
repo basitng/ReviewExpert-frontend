@@ -8,6 +8,7 @@ import "../theme/components/Card.css";
 const ProductCard = ({ image, title, rating, company, rateTotal }) => {
   return (
     <React.Fragment>
+   
       <div className="card">
         <div className="card-image">
           <img src={image} />

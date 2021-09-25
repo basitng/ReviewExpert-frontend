@@ -53,6 +53,7 @@
 
 @media screen and (max-width: 620px) {
   .container2 {
+    background-attachment: initial;
     text-align: center;
   }
   .container2 .txt1 {
