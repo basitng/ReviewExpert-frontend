@@ -30,7 +30,7 @@
 @media screen and (max-width: 720px) {
   .banner{
     background-attachment: initial;
-    
+    background-image: url('./../../statics/images/earpiece.png');
   }
   .banner form {
     margin: 7rem 0 0 2rem;
